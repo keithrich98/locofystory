@@ -1,0 +1,90 @@
+
+Chromatic CLI v9.0.0
+https://www.chromatic.com/docs/cli
+
+Authenticating with Chromatic
+    → Connecting to https://index.chromatic.com
+Authenticated with Chromatic
+    → Using project token '****************bfe8'
+Retrieving git information
+Retrieved git information
+    → Commit '3de07db' on branch 'main'; found 1 parent build
+Collecting Storybook metadata
+Collected Storybook metadata
+    → Storybook 7.5.3 for React; using the @storybook/react-webpack5 builder (7.5.3); supported addons found: Links, Essentials, Interactions
+Initializing build
+Initialized build
+    → Build 2 initialized
+Building your Storybook
+    → Running command: yarn run build-storybook --output-dir /var/folders/gc/ky_9nr9x0g3ct8t1kz865cb00000gn/T/chromatic--83881-8rDyu0swxr4e
+Storybook built in 7 seconds
+    → View build log at /Users/keithrichards/Documents/Projects/locofystory/locofyapp/build-storybook.log
+Publish your built Storybook
+    → Validating Storybook files
+Publishing your built Storybook
+    → Retrieving target location
+    → Starting publish
+    → [                    ] 1%
+    → [=                   ] 7%
+    → [==                  ] 11%
+    → [===                 ] 15%
+    → [====                ] 18%
+    → [====                ] 22%
+    → [=====               ] 25%
+    → [======              ] 28%
+    → [======              ] 31%
+    → [=======             ] 35%
+    → [=======             ] 37%
+    → [========            ] 40%
+    → [=========           ] 45%
+    → [==========          ] 49%
+    → [==========          ] 51%
+    → [==========          ] 52%
+    → [===========         ] 53%
+    → [===========         ] 54%
+    → [===========         ] 55%
+    → [===========         ] 56%
+    → [============        ] 59%
+    → [============        ] 60%
+    → [============        ] 62%
+    → [=============       ] 64%
+    → [=============       ] 65%
+    → [==============      ] 69%
+    → [==============      ] 71%
+    → [===============     ] 73%
+    → [===============     ] 75%
+    → [================    ] 78%
+    → [================    ] 80%
+    → [================    ] 82%
+    → [=================   ] 83%
+    → [=================   ] 86%
+    → [==================  ] 88%
+    → [==================  ] 89%
+    → [==================  ] 90%
+    → [==================  ] 92%
+    → [=================== ] 94%
+    → [=================== ] 97%
+    → [====================] 99%
+    → [====================] 100%
+Publish complete in 8 seconds
+    → View your Storybook at https://65523458d05308328cfb84bd-blzfynuoxf.chromatic.com
+Verifying your Storybook
+    → This may take a few minutes
+Started build 2
+    → View build details at https://www.chromatic.com/build?appId=65523458d05308328cfb84bd&number=2
+Running 8 tests
+    → This may take a few minutes
+ℹ Speed up Continuous Integration
+Your project is linked to GitHub so Chromatic will report results there.
+This means you can pass the --exit-once-uploaded flag to skip waiting for build results.
+Read more here: https://www.chromatic.com/docs/cli#chromatic-options
+    → [===                 ] 1/8  Button › Primary 
+    → [=====               ] 2/8  Button › Secondary 
+    → [========            ] 3/8  Button › Large 
+    → [==========          ] 4/8  Button › Small 
+    → [===============     ] 6/8  Header › Logged Out 
+    → [==================  ] 7/8  Page › Logged Out 
+    → [====================] 8/8  Page › Logged In 
+✔ Build 2 passed!
+No visual changes were found in this build.
+ℹ View build details at https://www.chromatic.com/build?appId=65523458d05308328cfb84bd&number=2
