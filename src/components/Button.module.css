@@ -1,0 +1,179 @@
+.cancel {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.button1 {
+  border-radius: var(--br-6xl);
+  background-color: var(--hce-colors-primary-purple-core-purple-active-color);
+  border: 1px solid
+    var(--hce-colors-primary-purple-primary-component-background-color);
+  box-sizing: border-box;
+  width: 87px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.fill {
+  font-family: var(--hce-text-style-body-medium);
+}
+.hsl27625922 {
+  font-weight: 500;
+}
+.fillHsl27625922 {
+  margin: 0;
+}
+.fillHsl27625922StrokContainer {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 14px;
+  color: var(--color-darkslateblue-100);
+  display: inline-block;
+  width: 272px;
+}
+.button2,
+.buttonParent {
+  display: flex;
+  align-items: center;
+}
+.buttonParent {
+  position: absolute;
+  top: 169px;
+  left: 311px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.button2 {
+  border-radius: var(--br-6xl);
+  background-color: var(
+    --hce-colors-primary-purple-primary-component-background-color
+  );
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.hsl {
+  font-weight: 500;
+  font-family: var(--hce-text-style-body-medium);
+}
+.fillHsl270132475TexContainer {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 14px;
+  color: var(--color-darkslateblue-100);
+  display: inline-block;
+  width: 256px;
+}
+.button3,
+.buttonGroup {
+  display: flex;
+  align-items: center;
+}
+.buttonGroup {
+  position: absolute;
+  top: 29px;
+  left: 21px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  color: var(--white);
+}
+.button3 {
+  border-radius: var(--br-6xl);
+  background-color: var(--hce-colors-primary-purple-highlight-color-hover);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.fillHsl305450248TexContainer {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 14px;
+  color: var(--color-darkslateblue-100);
+  display: inline-block;
+  width: 233px;
+}
+.buttonContainer {
+  position: absolute;
+  top: 29px;
+  left: 331px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  color: var(--white);
+}
+.button4,
+.buttonContainer,
+.frameDiv {
+  display: flex;
+  align-items: center;
+}
+.button4 {
+  border-radius: var(--br-6xl);
+  background-color: var(--white);
+  border: 1px solid
+    var(--hce-colors-primary-purple-primary-component-background-color);
+  box-sizing: border-box;
+  width: 80px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.frameDiv {
+  position: absolute;
+  top: 168px;
+  left: 13px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameParent,
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 594px;
+  height: 297px;
+}
+.frameParent {
+  top: 28px;
+  left: 149px;
+  font-size: var(--hce-text-style-body-medium-size);
+  color: var(--hce-colors-primary-purple-header-text-stroke-color-footer);
+}
+.stateDefault {
+  position: absolute;
+  top: 6px;
+  left: 260px;
+  line-height: 14px;
+}
+.defaultButton,
+.secondaryButton,
+.stateHover {
+  position: absolute;
+  top: 6px;
+  left: 552px;
+  line-height: 14px;
+}
+.defaultButton,
+.secondaryButton {
+  top: 77px;
+  left: 53px;
+}
+.secondaryButton {
+  top: 243px;
+  left: 32px;
+}
+.button {
+  background-color: var(--white);
+  width: 743px;
+  height: 340px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--hce-text-style-body-medium);
+}
